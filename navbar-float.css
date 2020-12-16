@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    background-color: #333;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.navbar{
+    margin-top: 5px;
+    font-family:'Roboto Mono', monospace;
+    background-color:rgba(128, 128, 128, 0.24)
+}
+.clear-fix{
+    clear:both;
+       
+}
+
+.navbar>ul>li{
+    padding: 10px ;
+}
+
+.navbar .branding li{
+    float: left;
+       
+}
+.navbar>.branding{
+    float: left;
+    margin-left: 50px;
+   ;
+}
+.navbar .branding li a {
+      color:skyblue;
+}
+
+.navbar .main{
+    float: left;
+    margin-left: 20px;
+   
+    
+}
+
+.navbar>.main>li{
+    float: left;
+    
+
+}
+
+.navbar .client{
+    float: right;
+    margin-right: 50px;
+        
+}
+
+.navbar>.client>li{
+    float: left;
+}
+
+.navbar>.empty{
+    background-color: #333;
+}
+.navbar>ul>li>a{
+    color: white ;
+}
+
+
